@@ -16,4 +16,19 @@ fun main() {
         println("The pizza cannot be split evenly.")
     }
 
+    // if else-if
+    var rewardsPoints = 13
+    var memberType: String
+
+    if (rewardsPoints >= 40) {
+        memberType = "Platium"
+    } else if (rewardsPoints >= 25) {
+        memberType = "Gold"
+    } else if (rewardsPoints >= 10) {
+        memberType = "Silver"
+    } else {
+        memberType = "Bronze"
+    }
+    println("You're a $memberType type member.")
+
 }
