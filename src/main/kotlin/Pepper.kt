@@ -24,12 +24,12 @@ fun main() {
     }
 
     // best way
-    when (sHU) {
-        in 1..699 -> pungency = "very mild"
-        in 700..2999 -> pungency = "mild"
-        in 3000..24999 -> pungency = "moderate"
-        in 25000..69999 -> pungency = "high"
-        else -> pungency = "very high"
+    pungency = when (sHU) {
+        in 1..699 -> "very mild"
+        in 700..2999 -> "mild"
+        in 3000..24999 -> "moderate"
+        in 25000..69999 -> "high"
+        else -> "very high"
     }
 
     println("A pepper with [$sHU] Scoville  Heat Units has a [$pungency] pungency")
