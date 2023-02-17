@@ -1,4 +1,3 @@
-package kotlin
 
 fun getPrice(price: Double, couponCode: String = "None") {
     var finalPrice: Double = price
