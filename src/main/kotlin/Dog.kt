@@ -1,14 +1,14 @@
 class Dog(val name: String, val breed: String, val competitionsParticipated: List<String>) {
 
     init {
-        for (competition in competitionsParticipated){
+        for (competition in competitionsParticipated) {
             println("$name participated in $competition")
         }
     }
 
 
     //members functions
-    fun speak(){
+    fun speak() {
         println("$name says: Woof !")
     }
 
