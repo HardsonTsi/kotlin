@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     // mutable variable
     var todaysDate: String = "02/15/2002"
     println(todaysDate)

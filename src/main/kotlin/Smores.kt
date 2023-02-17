@@ -15,7 +15,7 @@
 
 
 // function called smores
-fun smores(){
+fun smores() {
     println("Roast a marshmallow.")
     println("Place marshmallow on a graham cracker.")
     println("Place chocolate on marshmallow.")

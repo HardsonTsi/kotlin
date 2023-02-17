@@ -6,7 +6,7 @@
 
 fun main() {
 
-    var islandsOfHawaii = setOf("Maui","Lanai", "Oahu", "Kauai")
+    var islandsOfHawaii = setOf("Maui", "Lanai", "Oahu", "Kauai")
 
     // retrieve the island of Oahu from the set using elementAt()
     println(islandsOfHawaii.elementAt(2))

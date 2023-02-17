@@ -10,14 +10,14 @@ fun main() {
 
     // repeats as long the variable counter is less than 5
     println("---Counter output---")
-    while (counter < 5){
+    while (counter < 5) {
         println(counter)
         counter++
     }
 
     // has a condition, schoolGrades[index] != "6th"
     println("\n---Elementary School Grades---")
-    while (schoolGrades[index] != "6th"){
+    while (schoolGrades[index] != "6th") {
         println(schoolGrades[index])
         index++
     }
