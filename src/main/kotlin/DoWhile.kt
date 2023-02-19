@@ -15,6 +15,6 @@ fun main() {
         fahr = celsiusTemps[index] * fahrRatio + 32.0
         println("${celsiusTemps[index]}C = ${fahr}F")
         index++
-    }while (index < celsiusTemps.size)
+    } while (index < celsiusTemps.size)
 
 }
